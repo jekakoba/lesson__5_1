@@ -12,6 +12,10 @@ a {
 	color: inherit;
 }
 
+ul li {
+	list-style: none;
+}
+
 a,
 a:visited {
 	text-decoration: none;
@@ -37,5 +41,3 @@ html {
 	height: 100%;
 	line-height: 1;
 }
-
-/* ================================================================ */

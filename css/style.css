@@ -5,6 +5,8 @@
 	overflow: hidden;
 }
 
+/* ===========================================Technical classes======================================================== */
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -56,6 +58,8 @@ body {
 	color: black;
 }
 
+/* ====================================Header============================================================= */
+
 .header {
 	text-align: center;
 	margin-bottom: 50px;
@@ -75,7 +79,9 @@ body {
 }
 
 .list li {
+	font-family: "EastmanAlternate_italic";
 	font-style: italic;
+	font-weight: 200;
 	display: inline;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -83,8 +89,10 @@ body {
 	margin-right: 20px;
 }
 
+/* ====================================MARGIN============================================================= */
+
 .margin {
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 }
 
 .margin-info {
@@ -99,6 +107,12 @@ body {
 .image-margin {
 	display: block;
 	margin: 0 auto;
+}
+
+/* ========================Margin-anatomy=========================== */
+
+.margin-anatomy {
+	margin-bottom: 40px;
 }
 
 .margin-parameter {
@@ -120,6 +134,8 @@ body {
 	margin: 0 auto;
 }
 
+/* ========================Margin-negative=========================== */
+
 .negative-margin {
 	margin: 0px 0px 50px 0px;
 }
@@ -139,10 +155,10 @@ body {
 	margin-right: -40px;
 }
 
-.alignment-example {
-	color: white;
-	font-size: 20px;
-	line-height: 1.7;
+/* ========================Margin-alignment=========================== */
+
+.alignment {
+	margin-bottom: 40px;
 }
 
 .alignment-text {
@@ -157,6 +173,12 @@ body {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	font-weight: 600;
+}
+
+.alignment-example {
+	color: white;
+	font-size: 20px;
+	line-height: 1.7;
 }
 
 .block1 {
@@ -182,7 +204,7 @@ body {
 	width: 100%;
 }
 
-/* ======================================================================================== */
+/* =====================================Margin-collapse======================== */
 
 .collapse-text {
 	font-size: 30px;
@@ -263,12 +285,17 @@ body {
 	margin-bottom: 30px;
 }
 
+/* =========================================visible============================== */
+
 .visible {
 	text-align: center;
 	font-size: 30px;
 	background-color: bisque;
 	margin-bottom: 30px;
 }
+
+/* =========================================scroll============================== */
+
 .scroll {
 	margin-bottom: 30px;
 }
@@ -292,6 +319,8 @@ body {
 	margin: 0 auto;
 }
 
+/* =========================================hidden============================== */
+
 .hidden {
 	margin-bottom: 30px;
 }
@@ -306,6 +335,8 @@ body {
 	max-height: 200px;
 }
 
+/* =========================================auto============================== */
+
 .auto__example {
 	background-color: #004cf0;
 	color: white;
@@ -315,6 +346,36 @@ body {
 	overflow: auto;
 }
 
+/* =========================================Object-management =============================================== */
+
+.object-management {
+	font-size: 25px;
+}
+
+.object-management__text {
+	max-width: 500px;
+	text-align: left;
+	font-size: 30px;
+}
+
+/* =========================================Block ====================================== */
+
+.block-example {
+	background-color: #d89b9b;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+/* =========================================Inline ===================================== */
+
+.inline-example {
+	margin-bottom: 50px;
+}
+
+.inline-example__text {
+	margin-bottom: 20px;
+	padding: 20px;
+}
 .inline-blocks {
 	font-size: 30px;
 }
@@ -336,28 +397,7 @@ body {
 	display: inline;
 }
 
-.object-management {
-	font-size: 25px;
-}
-
-.object-management__text {
-	max-width: 500px;
-	text-align: left;
-	font-size: 30px;
-}
-
-.block-example {
-	background-color: #d89b9b;
-	padding: 30px;
-	margin-bottom: 50px;
-}
-.inline-example {
-	margin-bottom: 50px;
-}
-.inline-example__text {
-	margin-bottom: 20px;
-	padding: 20px;
-}
+/* =========================================Inline—block ================================== */
 
 .inline-block-example {
 	margin-bottom: 50px;
@@ -376,37 +416,20 @@ body {
 }
 .gibrid {
 	display: inline-block;
-
 	width: 150px;
 	background-color: yellowgreen;
 }
+
+/* =========================================None====================================== */
 
 .none {
 	background-color: wheat;
 	padding: 30px;
 }
 
-.box-size__text {
-	width: 300px;
-	height: 270px;
-}
-
-.border-box {
-	font-size: 14px;
-	width: 300px;
-	height: 200;
-	padding: 15px;
-}
-
-.content-box {
-	max-width: 500px;
-	margin-left: auto;
-}
+/* =========================================Footer========================================================= */
 
 .footer {
-	font-family: "Basique";
-	font-weight: 900;
-	text-align: center;
 	padding: 50px;
-	font-size: 80px;
+	text-align: center;
 }
